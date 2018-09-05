@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	pb "github.com/ewanvalentine/shipper/consignment-service/proto/consignment"
+	pb "github.com/Microservices-in-Golang/consignment-service/proto/consignment"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
@@ -54,4 +54,5 @@ func main() {
 	}
 	log.Printf("Created: %t", r.Created)
 }
+
 
